@@ -1,0 +1,12 @@
+{
+  "1.0": {
+    "project_path": ":oauth",
+    "project_dir": "/media/Others/repos/grails-oauth-scribe",
+    "connection_project_dir": "/media/Others/repos/causecode",
+    "connection_gradle_user_home": null,
+    "connection_gradle_distribution": "GRADLE_DISTRIBUTION(WRAPPER)",
+    "connection_java_home": null,
+    "connection_jvm_arguments": "",
+    "connection_arguments": ""
+  }
+}
