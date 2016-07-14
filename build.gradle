@@ -28,7 +28,7 @@ project.publishing {
 
             groupId "com.causecode.plugins"
             artifactId "oauth"
-            version "2.6.2-RC1"         // TODO make this automatic
+            version "2.6.3-RC1"         // TODO make this automatic
 
 
             pom.withXml {
@@ -45,16 +45,16 @@ project.publishing {
     repositories {
         maven {
             credentials {
-                // username mavenUser
-                // password mavenPassword
+                username mavenPublishUser
+                password mavenPublishPassword
             }
             url "http://maven-upload.causecode.com"
         }
     }
 }
 
-version "3.0.0"
-group "org.grails.plugins"
+version "2.6.3"
+group "com.causecode.plugins"
 
 apply plugin: 'eclipse'
 apply plugin: 'idea'
