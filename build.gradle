@@ -28,7 +28,7 @@ project.publishing {
 
             groupId "com.causecode.plugins"
             artifactId "oauth"
-            version "2.6.3-RC1"         // TODO make this automatic
+            version "2.6.4"         // TODO make this automatic
 
 
             pom.withXml {
@@ -53,7 +53,7 @@ project.publishing {
     }
 }
 
-version "2.6.3"
+version "2.6.4"
 group "com.causecode.plugins"
 
 apply plugin: 'eclipse'
